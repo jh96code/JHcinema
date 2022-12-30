@@ -1,0 +1,126 @@
+@charset "UTF-8";
+#section02{
+    margin-top: 70px;
+}
+#section03{
+    margin: 70px 0px;
+}
+.section{
+    width: 100%;
+}
+.section .head{
+    width: 100%;
+}
+.section .head .title{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.section .head .title span{
+    font-size: 20px;
+    color: #FF243E;
+}
+.section .head .more{
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}
+.section .list{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.section .list li{
+    width: 100%;
+}
+.section .list li .img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+}
+.section .list li .img .bg{
+    background-color: #343434;
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
+}
+.section .list li:hover .img .bg{
+    display: block;
+}
+.section .list li .img .view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: none;
+}
+.section .list li:hover .img .view{
+    display: block;
+}
+.section .list li .img .view .view-1{
+    margin: 0px auto;
+    width: 50%;
+    padding: 6px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.section .list li .img .view .view-1:hover{
+    background-color: #fff;
+    color: #000;
+}
+.section .list li .img .view .view-2{
+    margin: 0px auto;
+    width: 50%;
+    padding: 6px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.section .list li .img .view .view-2:hover{
+    background-color: #fff;
+    color: #000;
+}
+.section .list li .img .rank{
+    position: absolute;
+    z-index: 9;
+    bottom: 2px;
+    left: 5px;
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+}
+.section .list li .bottom{
+    width: 100%;
+    margin-top: 10px;
+}
+.section .list li .bottom .name{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.section .list li .bottom .heart{
+    color: #FF243E;
+    font-weight: bold;
+}
+.section .list li .bottom .heart span{
+    color: #000;
+    font-weight: bold;
+}
+.section .list li .bottom .d-day{
+    color: #FF243E;
+    font-weight: bold;
+}

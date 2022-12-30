@@ -1,0 +1,180 @@
+@charset "UTF-8";
+#section01{
+    background-color: #222;
+    height: 500px;
+    width: 100%;
+    margin-top: 108px;
+}
+#section01 ul.swiper-wrapper{
+    width: 100%;
+    margin-top: 40px;
+}
+#section01 ul.swiper-wrapper .swiper-slide{
+    width: 100%;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .rank{
+    position: absolute;
+    z-index: 9;
+    bottom: 60px;
+    left: 20px;
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .bg{
+    background-color: #343434;
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img:hover .bg{
+    display: block;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img:hover .view{
+    display: block;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .view .view-1{
+    margin: 0px auto;
+    width: 45%;
+    padding: 10px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .view .view-1:hover{
+    background-color: #fff;
+    color: #000;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .view .view-2{
+    margin: 0px auto;
+    width: 45%;
+    padding: 10px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+#section01 ul.swiper-wrapper .swiper-slide .img .view .view-2:hover{
+    background-color: #fff;
+    color: #000;
+}
+#section01 ul.swiper-wrapper .swiper-slide .bottom{
+    width: 100%;
+    margin-top: 15px;
+}
+#section01 ul.swiper-wrapper .swiper-slide .bottom .heart{
+    width: 40%;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 4px 0px;
+    margin-right: 20px;
+    color: red;
+}
+#section01 ul.swiper-wrapper .swiper-slide .bottom .heart span{
+	margin-left: 10px; 
+	font-size: 20px;
+	color: #fff;
+}
+#section01 ul.swiper-wrapper .swiper-slide .bottom .ticketing{
+    width: 40%;
+    background-color: #bf2b2b;
+    border-radius: 5px;
+    color: #f3f3f3;
+    font-size: 16px;
+    padding: 8px 0px;
+}
+/* section01 �걹 */
+
+
+/* section02 �떆�옉 */
+#section02{
+    width: 100%;
+    padding: 50px 0px;
+}
+#section02 .head{
+    margin-bottom: 15px;
+}
+#section02 .head h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#section02 .head .more{
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    padding: 3px 15px;
+}
+#section02 .head .more span{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: bold;
+}
+#section02 ul.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 20px;
+}
+#section02 ul.list li{
+    width: 100%;
+}
+#section02 ul.list li a{
+    width: 100%;
+}
+#section02 ul.list li a .img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+#section02 ul.list li:hover a .img{
+    background-size: 115% 115%;
+}
+#section02 ul.list li a .text{
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+#section02 ul.list li a .text .name{
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+    width: 340px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#section02 ul.list li a .text .sub{
+    font-weight: bold;
+    color: #777;
+    font-size: 15px;
+    margin-top: 3px;
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*addFAQ CSS 시작*/
+#addFAQ{
+    margin-top: 150px;
+    width: 100%;
+}
+#addFAQ h1{
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+#addFAQ .form_box{
+    width: 70%;
+    padding: 50px;
+    margin: 0px auto;
+}
+#addFAQ .form_box form{
+    width: 100%;
+}
+#addFAQ .form_box form .form_group{
+    width: 100%;
+    min-height: 50px;
+}
+#addFAQ .form_box form .form_group select{
+	float: left;
+	padding: 4px 2px;
+}
+#addFAQ .form_box form .form_group select option{
+	font-weight: bold;
+	padding: 2px;
+}
+#addFAQ .form_box form .form_group .label{
+    width: 15%;
+    margin-right: 100px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+#addFAQ .form_box form .form_group input, #addFAQ .form_box form .form_group textarea{
+    float: left;
+    padding: 2px 5px;
+}
+
+#addFAQ .form_box form button{
+    cursor: pointer;
+    float: right;
+    background-color: #bf2b2b;
+    color: #fff;
+    padding: 1px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 28px;
+    border: 0px;
+    margin: 25px 2px 50px 0px;
+}
+/*addFAQ CSS 끝*/
+
+/*addNotice CSS 시작*/
+#addNotice{
+    margin-top: 150px;
+    width: 100%;
+}
+#addNotice h1{
+    text-align: left;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+#addNotice .form_box{
+    width: 70%;
+    padding: 50px;
+    margin: 0px auto;
+}
+#addNotice .form_box form{
+    width: 100%;
+}
+#addNotice .form_box form .form_group{
+    width: 100%;
+    min-height: 50px;
+}
+#addNotice .form_box form .form_group .label{
+    width: 15%;
+    margin-right: 100px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+#addNotice .form_box form .form_group input, #addNotice .form_box form .form_group textarea{
+    float: left;
+    padding: 2px 5px;
+}
+#addNotice .form_box form button{
+    cursor: pointer;
+    float: right;
+    background-color: #bf2b2b;
+    color: #fff;
+    padding: 1px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 28px;
+    border: 0px;
+    margin: 25px 2px 50px 0px;
+}
+/*addNotice CSS 끝*/

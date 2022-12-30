@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+    font-size: 14px;
+    line-height: 1.5; 
+    outline: 0px;
+}
+body{
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100vw;
+}
+ul, ol{
+    list-style: none;
+    font-size: 0px;
+}
+ul li, ol li{
+    display: inline-block;
+}
+a{
+	cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}

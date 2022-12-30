@@ -1,0 +1,135 @@
+@charset "UTF-8";
+#addMember{
+    margin-top: 160px;
+    width: 100%;
+}
+#addMember h1{
+    font-weight: bold;
+    font-size: 22px;
+}
+#addMember h1 span{
+    font-size: 15px;
+    color: #777;
+}
+#addMember .title-sub{
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #bf2b2b;
+    margin-bottom: -6px;
+    margin-right: 5px;
+}
+#addMember .title-sub span{
+    font-size: 19px;
+    vertical-align: middle;
+}
+#addMember .form{
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 25px;
+}
+#addMember .form .form-group{
+    width: 100%;
+    min-height: 45px;
+}
+#addMember .form .form-group .submit{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 46%;
+    margin-left: 32px;
+    background-color: #bf2b2b;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 16px;
+}
+#addMember .form .form-group h3{
+    float: left;
+    text-align: left;
+    width: 30%;
+    vertical-align: middle;
+}
+#addMember .form .form-group h3 .essential{
+    color: #bf2b2b;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#addMember .form .form-group .input-box{
+    float: left;
+    text-align: left;
+    width: 70%;
+}
+#addMember .form .form-group .input-box input{
+    vertical-align: middle;
+    font-size: 13px;
+    padding: 2px 5px;
+}
+#addMember .form .form-group .input-box .form-control{
+    width: 65%
+}
+#addMember .form .form-group .input-box .readonly{
+    background-color: #e7e7e7;
+    border: 1px solid #777;
+    border-radius: 2px;
+}
+#addMember .form .form-group .input-box .input-btn{
+    cursor: pointer;
+    background-color: #bf2b2b;
+    color: #fff;
+    padding: 1px 26px;
+    margin-left: 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 28px;
+    border: 0px;
+}
+#addMember .form .form-group .input-box select{
+    padding: 3px;
+}
+#addMember .form .form-group .agree-box{
+    width: 70%;
+    float: right;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#addMember .form .form-group .agree-box span{
+    line-height: 15px;
+}
+#addMember .form .form-group .agree-box .agree-btn{
+    cursor: pointer;
+    float: right;
+    background-color: #bf2b2b;
+    color: #fff;
+    padding: 1px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 28px;
+    border: 0px;
+    margin: 0px 14px;
+}
+#addMember .form .form-group .agree-box .agree_modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32vw;
+    height: 60vh;
+    overflow: scroll;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 10px 15px;
+    display: none;
+}
+#addMember .form .form-group .agree-box .agree_modal .title{
+    margin-bottom: 30px;
+}
+#addMember .form .form-group .agree-box .agree_modal .close{
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
+    color: #bf2b2b;
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}

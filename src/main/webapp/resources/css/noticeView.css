@@ -1,0 +1,72 @@
+@charset "UTF-8";
+#noticeView{
+    width: 100%;
+    margin-top: 160px;
+}
+#noticeView h1{
+    font-size: 22px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#noticeView .title{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    color: #222;
+}
+#noticeView .content_box{
+    width: 100%;
+}
+#noticeView .content_box .head{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 22px 0px;
+}
+#noticeView .content_box .head > p{
+    display: inline-block;
+    margin: 0px 90px;
+}
+#noticeView .content_box .head > p .name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+#noticeView .content_box .head > p .line{
+    font-size: 13px;
+    line-height: 25px;
+    color: #ccc;
+    margin: 0px 10px;
+}
+#noticeView .content_box .head > p .sub{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+#noticeView .content_box .content{
+    width: 100%;
+    padding: 40px 20px;
+}
+#noticeView .content_box .content > p{
+    font-size: 16px;
+    text-align: left;
+    min-height: 150px;
+}
+#noticeView .delete{
+    float: right;
+    color: #fff;
+    background-color: #bf2b2b;
+    padding: 5px 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+#noticeView .back{
+	margin-top: 25px;
+}
+#noticeView .back a{
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 50px;
+}

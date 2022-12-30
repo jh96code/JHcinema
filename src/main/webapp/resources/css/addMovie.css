@@ -1,0 +1,63 @@
+@charset "UTF-8";
+#addMovie{
+    margin-top: 80px;
+    width: 100%;
+}
+#addMovie h1{
+    text-align: left;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+#addMovie h1 span{
+    font-size: 14px;
+    font-weight: bold;
+}
+#addMovie .form_box{
+    width: 70%;
+    padding: 50px;
+    margin: 0px auto;
+}
+#addMovie .form_box form{
+    width: 100%;
+}
+#addMovie .form_box form .form_group{
+    width: 100%;
+    min-height: 50px;
+}
+#addMovie .form_box form .form_group input[type=file]{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+#addMovie .form_box form .form_group select{
+	float: left;
+	padding: 4px 2px;
+}
+#addMovie .form_box form .form_group select option{
+	font-weight: bold;
+	padding: 2px;
+}
+#addMovie .form_box form .form_group .label{
+    width: 15%;
+    margin-right: 100px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+#addMovie .form_box form .form_group input, #addMovie .form_box form .form_group textarea{
+    float: left;
+    padding: 2px 5px;
+}
+
+#addMovie .form_box form button{
+    cursor: pointer;
+    float: right;
+    background-color: #bf2b2b;
+    color: #fff;
+    padding: 1px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 28px;
+    border: 0px;
+    margin: 0px 14px;
+}

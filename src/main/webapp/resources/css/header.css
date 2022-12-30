@@ -1,0 +1,198 @@
+@charset "UTF-8";
+header{
+    width: 100%;
+    border-bottom: 2px solid #555;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color: #fff;
+}
+header nav{}
+header nav .topbar{
+    border-bottom: 1px solid #eee;
+    height: 40px;
+}
+header nav .topbar ul.left{}
+header nav .topbar ul.left li{
+    margin-right: 10px;
+}
+header nav .topbar ul.left li a{
+    line-height: 40px;
+    font-size: 13px;
+    color: #777;
+}
+header nav .topbar ul.left li a i{
+    line-height: 40px;
+    padding-top: 1px;
+    color: #777;
+}
+header nav .topbar ul.right{}
+header nav .topbar ul.right span{
+    margin-left: 15px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #555;
+}
+header nav .topbar ul.right li{
+    margin-left: 15px;
+}
+header nav .topbar ul.right li a{
+    line-height: 40px;
+    color: #555;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+header nav .menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+header nav .menu .left{
+    width: 5%;
+    text-align: left;
+    margin-top: 10px;
+}
+header nav .menu .left i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #333;
+}
+header nav .menu ul.center{
+    width: 90%;
+}
+header nav .menu ul.center > li{  
+    margin: 0px 10px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+header nav .menu ul.center > li:hover a{
+    color: #bf2b2b;
+}
+header nav .menu ul.center > li > a{
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    padding: 0px 10px;
+}
+header nav .menu ul.center > li > a .logo{
+    margin: 0px 20px;
+}
+header nav .menu ul.center > li ol.sub-menu{
+    position: absolute;
+    top: 107px;
+    left: 0px;
+    width: 100vw;
+    background-color: #f5f5f5;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+    transition: all .5s;
+}
+header nav .menu ul.center > li:hover ol.sub-menu{
+    visibility: inherit;
+    opacity: 1;
+}
+header nav .menu ul.center > li:hover ol.sub-menu:hover{
+    display: block;
+    opacity: 1;
+}
+header nav .menu ul.center > li ol.sub-menu > li{
+    margin: 0px 15px;
+}
+header nav .menu ul.center > li ol.sub-menu > li > a{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #555;
+}
+header nav .menu ul.center > li ol.sub-menu > li:hover > a{
+    color: #000;
+}
+header nav .menu ul.center > li ol.sub-menu span{
+    color: #ccc;
+    line-height: 40px;
+    font-size: 17px;
+}
+header nav .menu .right{
+    width: 5%;
+    text-align: right;
+    margin-top: 10px;
+}
+header nav .menu .right a{}
+header nav .menu .right a i{
+    font-size: 25px;
+    color: #333;
+}
+
+header .menu-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 60%;
+    border: 1px solid #bf2b2b;
+    background-color: #fff;
+    z-index: 99;
+    display: none;
+}
+header .menu-popup ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+header .menu-popup ul > li{
+    width: 30%;
+    margin: 20px 0px;
+    text-align: left;
+    color: #bf2b2b;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: underline 2px #333;
+}
+header .menu-popup ul > li ol.sub{
+    width: 50%;
+}
+header .menu-popup ul > li ol.sub li{
+    width: 100%;
+    margin: 0px;
+    line-height: 30px;
+}
+header .menu-popup ul > li ol.sub li > a{
+    width: 100%;
+}
+header .menu-popup .close{
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 3px 5px;
+}
+header .menu-popup .img{
+    background-image: url(../img/popup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 180px;
+    margin-top: 50px;
+}
+header .popup-bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.8;
+    z-index: 9;
+    display: none;
+}

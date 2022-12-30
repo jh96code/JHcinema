@@ -1,0 +1,157 @@
+@charset "UTF-8";
+#section02{
+    margin-top: 70px;
+    width: 100%;
+}
+#section02 .head{
+    width: 100%;
+}
+#section02 .head .title div{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    display: inline-block;
+    margin-right: 25px;
+    color: #999;
+    cursor: pointer;
+}
+#section02 .head .title div.view{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+#section02 .head .addBtn{
+    cursor: pointer;
+    border: 0px;
+    background-color: #bf2b2b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 20px;
+    display: none;
+}
+#section02 .head .addBtn.view{
+	display: inline-block;
+}
+#section02 .head .sub{
+    font-size: 13px;
+    font-weight: bold;
+}
+#section02 .more-view{
+    display: none;
+}
+#section02 .more-btn{
+    cursor: pointer;
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #444;
+    line-height: 40px;
+}
+
+.section{
+    display: none;
+}
+.section.tap-view{
+    display: block;
+}
+.section .list{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.section .list li{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.section .list li .img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+}
+.section .list li .img .bg{
+    background-color: #343434;
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
+}
+.section .list li:hover .img .bg{
+    display: block;
+}
+.section .list li .img .view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: none;
+}
+.section .list li:hover .img .view{
+    display: block;
+}
+.section .list li .img .view .view-1{
+    margin: 0px auto;
+    width: 50%;
+    padding: 6px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.section .list li .img .view .view-1:hover{
+    background-color: #fff;
+    color: #000;
+}
+.section .list li .img .view .view-2{
+    margin: 0px auto;
+    width: 50%;
+    padding: 6px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.section .list li .img .view .view-2:hover{
+    background-color: #fff;
+    color: #000;
+}
+.section .list li .img .rank{
+    position: absolute;
+    z-index: 9;
+    bottom: 2px;
+    left: 5px;
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+}
+.section .list li .bottom{
+    width: 100%;
+    margin-top: 10px;
+}
+.section .list li .bottom .name{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.section .list li .bottom .heart{
+    color: #FF243E;
+    font-weight: bold;
+}
+.section .list li .bottom .heart span{
+    color: #000;
+    font-weight: bold;
+}
+.section .list li .bottom .d-day{
+    color: #FF243E;
+    font-weight: bold;
+}

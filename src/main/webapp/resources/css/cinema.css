@@ -1,0 +1,179 @@
+@charset "UTF-8";
+#section02{
+    width: 100%;
+    margin-top: 70px;
+}
+#section02 ul.title{
+    width: 100%;
+}
+#section02 ul.title li{
+    width: 25%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #aaa;
+    padding: 10px 0px;
+    border-bottom: 2px solid #eee;
+}
+#section02 ul.title li.view{
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+#section02 .tap-box{
+    width: 100%;
+    margin-top: 30px;
+    display: none;
+    text-align: left;
+    margin-left: 15px;
+}
+#section02 .tap-box.view{
+    display: block;
+}
+#section02 .tap-box p.count{
+    letter-spacing: -1px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    position: relative;
+    margin-left: 14px;
+}
+#section02 .tap-box p.count::before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+}
+#section02 .tap-box p.count span{
+    font-weight: bold;
+    font-size: 15px;
+}
+#section02 .tap-box p.addr{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#section02 .tap-box ul.guide{
+    margin-top: 50px;
+}
+#section02 .tap-box ul.guide li{
+    cursor: pointer;
+    margin-right: 30px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    line-height: 30px;
+}
+#section02 .tap-box ul.guide li i{
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    padding: 0px 11px;
+    vertical-align: middle;
+}
+#section02 .tap-box .guide_bus, #section02 .tap-box .guide_car{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 9;
+    display: none;
+}
+#section02 .tap-box .guide_bus.view, #section02 .tap-box .guide_car.view{
+    display: block;
+}
+#section02 .tap-box .guide_bus h3, #section02 .tap-box .guide_car h3{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+#section02 .tap-box .guide_bus .text-box, #section02 .tap-box .guide_car .text-box{
+    padding: 25px;
+}
+#section02 .tap-box .guide_bus .text-box .name, #section02 .tap-box .guide_car .text-box .name{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+#section02 .tap-box .guide_bus .text-box .text, #section02 .tap-box .guide_car .text-box .text{
+    position: relative;
+    margin-left: 10px;
+    color: #333;
+    margin-top: 3px;
+}
+#section02 .tap-box .guide_bus .text-box .text::before, #section02 .tap-box .guide_car .text-box .text::before{
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: -8px;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #333;
+}
+#section02 .tap-box .guide_bus .text-box .sub, #section02 .tap-box .guide_car .text-box .sub{
+    margin-left: 12px;
+    font-size: 12px;
+    color: #777;
+}
+#section02 .tap-box .guide_bus .close, #section02 .tap-box .guide_car .close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+#section02 .tap-box .guide_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .7;
+    z-index: 3;
+    display: none;
+}
+#section02 .tap-box .guide_bg.view{
+    display: block;
+}
+#section02 #map{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 30%;
+    height: 50vh;
+    z-index: 9;
+    visibility: hidden;
+}
+#section02 #map.view{
+    visibility: inherit;
+}
+#section02 #map .close{
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0px 10px;
+    font-weight: bold;
+    z-index: 99;
+}

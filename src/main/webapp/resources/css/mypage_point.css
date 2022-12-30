@@ -1,0 +1,74 @@
+@charset "UTF-8";
+#point{
+	margin-top: 20px;
+}
+#point .container{
+	width: 90%;
+}
+#point h1{
+	font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+#point h1 span{
+	font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-left: 5px;
+}
+#point .list{
+	margin-top: 20px;
+	width: 100%;
+}
+#point .list li{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #bbb;
+	margin: 2px 0px;
+	counter-increment: list-number -1;
+}
+#point .list li::before{
+	content: counter(list-number);
+    display: inline-block;
+    line-height: 40px;
+    width: 35px;
+    height: 38px;
+    border-right: 1px solid #bbb;
+    border-radius: 2px;
+    color: #fff;
+    background: #bf2b2b;
+    font-size: 20px;
+    float: left;
+    margin-right: 1px;
+}
+#point .list li .box{
+	width: 100%;
+}
+#point .list li .box .point{
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+}
+#point .list li .box .point span{
+	font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 40px;
+}
+#point .list li .box .memo{
+	padding-left: 10px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 13.5px;
+    margin-right: 15px;
+}
+#point .list li .box .memo span{
+	margin-left: 5px;
+	line-height: 40px;
+	font-size: 13.5px;
+	font-weight: 500;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+h1{
+    font-size: 25px;
+    margin-top:20px;
+    padding-bottom: 5px;
+}
+.form-group{
+	width:90%;
+	margin: 0px auto;
+}
+.form-group input{
+	width: 100%;
+    padding: 1px 5px;
+}
+.button{
+	width: 50%;
+    cursor: pointer;
+    border: 0px;
+    background-color: #bf2b2b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 20px;
+}

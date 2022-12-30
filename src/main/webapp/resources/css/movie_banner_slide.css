@@ -1,0 +1,20 @@
+@charset "UTF-8";
+#movie-banner-slide{
+    margin-top: 108px;
+    width: 100%;
+}
+#movie-banner-slide .img{
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+#movie-banner-slide .swiper-button-prev{
+    left: 50px;
+    color: #efefef;
+}
+#movie-banner-slide .swiper-button-next{
+    right: 50px;
+    color: #efefef;
+}

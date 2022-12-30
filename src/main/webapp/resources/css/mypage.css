@@ -1,0 +1,274 @@
+@charset "UTF-8";
+#mypage{
+    margin-top: 150px;
+    width: 100%;
+}
+#mypage .box{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 30px;
+}
+#mypage .box h1{
+    text-align: left;
+    font-size: 20px;
+}
+#mypage .box ul.list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+#mypage .box ul.list > li{
+    width: 100%;
+    background-color: #fff;
+    min-height: 140px;
+    padding-top: 20px;
+}
+#mypage .box ul.list > li > a{
+    width: 100%;
+    height: 100%;
+}
+#mypage .box ul.list > li i{
+    font-size: 35px;
+    color: #bf2b2b;
+}
+#mypage .box ul.list > li .text{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#mypage .box ul.list > li .name{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#mypage .box ul.list > li .sub{
+    text-align: left;
+    margin: 30px 0px 0px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #bf2b2b;
+}
+
+#mypage .tap_box{
+    width: 100%;
+    margin-top: 30px;
+    min-height: 130px;
+}
+#mypage .tap_box .left{
+    width: 20%;
+    float: left;
+}
+#mypage .tap_box .left ul.tap_btn{
+    width: 100%;
+}
+#mypage .tap_box .left ul.tap_btn li{
+    width: 100%;
+    margin-bottom: 1px;
+}
+#mypage .tap_box .left ul.tap_btn li > a{
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+}
+#mypage .tap_box .left ul.tap_btn li.view a{
+    border: 1px solid #bf2b2b;
+    background-color: #bf2b2b;
+    color: #fff;
+}
+#mypage .tap_box .left ul.tap_btn li > a .name{
+    font-weight: bold;
+    font-size: 15px;
+}
+#mypage .tap_box .left ul.tap_btn li > a .arrow{
+    font-weight: bold;
+    font-size: 16px;
+}
+#mypage .tap_box .right{
+    width: 75%;
+    float: left;
+}
+
+#mypage .tap_box .right{
+    width: 70%;
+    float: right;
+    border: 2px solid #eee;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    display: none;
+}
+#mypage .tap_box .right.view{
+    display: block;
+}
+#mypage .tap_box .right .user_info{
+    width: 100%;
+    display: none;
+}
+#mypage .tap_box .right .user_info .flex{
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+#mypage .tap_box .right .user_info h2{
+    font-size: 19px;
+}
+#mypage .tap_box .right .user_info .delete_btn{
+    cursor: pointer;
+    padding: 3px 15px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #bf2b2b;
+    color: #fff;
+}
+#mypage .tap_box .right .user_info .form{
+    width: 100%;
+    margin-top: 25px;
+}
+#mypage .tap_box .right .user_info .form .submit{
+    cursor: pointer;
+    width: 25%;
+    padding: 4px 0px;
+    font-weight: bold;
+    margin: 20px 15px 0px 15px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #bf2b2b;
+    color: #fff;
+}
+#mypage .tap_box .right .user_info .form .form-group{
+    width: 100%;
+    min-height: 45px;
+}
+#mypage .tap_box .right .user_info .form .form-group h3{
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+#mypage .tap_box .right .user_info .form .form-group .input-box{
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+#mypage .tap_box .right .user_info .form .form-group .input-box .input-btn{
+    cursor: pointer;
+    background-color: #bf2b2b;
+    color: #fff;
+    padding: 0px 20px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 27px;
+    border: 0px;
+}
+#mypage .tap_box .right .user_info .form .form-group .input-box .form-control{
+    width: 55%;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+#mypage .tap_box .right .user_info .form .form-group .input-box .readonly{
+    background-color: #e9e9e9;
+    border: 1px solid #888;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#mypage .tap_box .right .ticketing_info{
+    width: 100%;
+    display: none;
+}
+#mypage .tap_box .right .ticketing_info > h2{
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+}
+#mypage .tap_box .right .ticketing_info > h2 span{
+    font-size: 14px;
+    font-weight: 100;
+    color: #666;
+}
+#mypage .tap_box .right .ticketing_info ul.list{
+	width: 100%;
+	margin-top: 30px;
+	counter-reset: list-number;
+}
+#mypage .tap_box .right .ticketing_info ul.list li{
+	width: 100%;
+	height: 150px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    margin: 3px 0px;
+    counter-increment: list-number;
+}
+#mypage .tap_box .right .ticketing_info ul.list li::before{
+	content: counter(list-number);
+    display: inline-block;
+    line-height: 150px;
+    width: 40px;
+    height: 100%;
+    border-radius: 1px;
+    color: #fff;
+    background: #bf2b2b;
+    font-size: 20px;
+    float: left;
+    margin-right: 1px;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .flex{
+	height: 100%;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left{
+	width: 80%;
+	height: 100%;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left .img{
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 25%;
+    height: 100%;
+    border-radius: 2px;
+    float: left;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left .text{
+	float: left;
+    text-align: left;
+    padding: 15px;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left .text .title{
+	font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left .text .sub_title{
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left .text .sub{
+	color: #333;
+    font-size: 15px;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .left .text .sub span{
+	vertical-align: top;
+    margin: 0px 4px;
+    color: #777;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .price{
+	width: 20%;
+	height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #aaa;
+    padding-top: 50px;
+}
+#mypage .tap_box .right .ticketing_info ul.list li .price span{
+	font-weight: 500;
+}
+#mypage .tap_box .right .ticketing_info .empty{
+	padding: 30px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}

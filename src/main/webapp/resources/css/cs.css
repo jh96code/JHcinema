@@ -1,0 +1,195 @@
+@charset "UTF-8";
+#section02{
+    margin-top: 160px;
+    width: 100%;
+}
+#section02 .head{
+    width: 100%;
+}
+#section02 .head h1{
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 5px;
+}
+#section02 .head ul.title{
+    width: 100%;
+    margin-top: 40px;
+    border-bottom: 1px solid #ddd;
+}
+#section02 .head ul.title li{
+    cursor: pointer;
+    width: 33.3%;
+    border-right: 0px;
+}
+#section02 .head ul.title li a{
+	width: 100%;
+	font-size: 18px;
+    line-height: 50px;
+}
+#section02 .head ul.title li.view{
+    border-bottom: 2px solid #000;
+}
+#section02 .head ul.title li.view a{
+	font-weight: bold;
+}
+#section02 .search{
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 15px 0px 40px 0px;
+}
+#section02 .search form{
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+#section02 .search form select{
+    padding: 5px 8px;
+}
+#section02 .search form input[type="text"]{
+    padding: 2px 5px;
+    margin-right: 10px;
+}
+#section02 .search form input[type="submit"]{
+    cursor: pointer;
+    color: #fff;
+    background-color: #bf2b2b;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+#section02 .tap_box{
+    width: 100%;
+    padding-bottom: 100px;
+}
+#section02 .tap_box table{
+    width: 100%;
+    vertical-align: top;
+    border-color: #dee2e6
+}
+#section02 .tap_box table tbody{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+#section02 .tap_box table tbody tr{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+#section02 .tap_box table tbody tr.faq_reply{
+    display: none;
+    background-color: #f3f3f3;
+}
+#section02 .tap_box table tbody tr.faq_reply.view{
+    display: table-row;
+}
+#section02 .tap_box table tbody tr.faq i{
+    transition: all .3s;
+}
+#section02 .tap_box table tbody tr th{
+    border-color: #bbb;
+    border-style: solid;
+    border-width: 0;
+    padding: 1.5rem;
+    border-bottom-width: 1px;
+    font-size: 17px;
+}
+#section02 .tap_box table tbody tr td{
+    border-color: #eee;
+    border-style: solid;
+    border-width: 0;
+    padding: 1.5rem;
+    border-bottom-width: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+#section02 .tap_box#notice table tbody tr td{
+	cursor: default;
+}
+#section02 .tap_box#notice table tbody tr td a{
+	width: 100%;
+}
+#section02 .tap_box table tbody tr.faq_reply td{
+    cursor: default;
+}
+#section02 .tap_box table tbody tr td p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+#section02 .tap_box table tbody tr td p span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #bf2b2b;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+}
+#section02 .tap_box table tbody tr.faq_reply td p span{
+    background-color: rgb(37, 209, 209);
+}
+#section02 .tap_box .button{
+    float: right;
+    background-color: #bf2b2b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 40px;
+}
+#section02 .tap_box .contact_reply{
+	width: 100%;
+	display: none;
+	background-color: #f9f9f9;
+}
+#section02 .tap_box .contact_reply td{
+	cursor: default;
+}
+#section02 .tap_box .contact_reply.view{
+    display: table-row;
+}
+#section02 .tap_box .contact_reply .reply_group{
+	width: 100%;
+	min-height: 40px;
+}
+#section02 .tap_box .contact_reply .reply_group .name{
+	width: 20%;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px 0px;
+	background-color: #fff;
+}
+#section02 .tap_box .contact_reply .reply_group .sub{
+	width: 77%;
+	float: right;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-align: left;
+	background-color: #fff;
+}
+#section02 .tap_box .contact_reply .delete{
+	background-color: #bf2b2b;
+    color: #fff;
+    float: right;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+#section02 .tap_box .submit{
+	cursor: pointer;
+	background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
