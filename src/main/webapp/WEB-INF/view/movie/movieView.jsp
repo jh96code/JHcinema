@@ -40,7 +40,12 @@
 						<h1>${movie.title}</h1>
 						<h3>${status}</h3>
 					</div>
-					<h2>예매율 ${movie.num}위</h2>
+					<c:if test="${status eq '현재상영작'}">
+						<h2>예매율 ${movie.num}위</h2>
+					</c:if>
+					<c:if test="${status eq '상영예정작'}">
+						<h2>기대작 ${movie.num}위</h2>
+					</c:if>
 					<hr>
 					<p><b>장르 </b>${movie.category} / ${movie.country}<span>ㅣ</span>${movie.openDate} <span>ㅣ</span>${movie.movieTime}분</p>
 					<p><b>감독 </b>${movie.director}</p>
