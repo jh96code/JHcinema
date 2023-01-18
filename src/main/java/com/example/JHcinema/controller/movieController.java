@@ -108,7 +108,7 @@ public class movieController {
 		return "movie/movie_coming";
 	}
 	
-	//상영예정작 상세보기(+댓글)
+	//상영예정작 상세보기
 	@GetMapping("/movieView_coming")
 	public String movieView_coming(@RequestParam int num, Model m) throws SQLException {
 		movieComingDto dto = movieDao.getComing(num);
